@@ -350,6 +350,35 @@ section{
 		background-color:#3fbbc0;
 	}
 /*appointment-sec-end*/
+/*pricing-sec-start*/
+    .department-box .box{
+		padding:1.5rem;
+	}
+	.department-box .box h4{
+		font-size:1.8rem;
+		font-weight:600;
+		color:#444444;
+		margin-bottom:1rem;
+	}
+	.department-box .box p{
+		font-size:1.5rem;
+	}
+	.department-info h3{
+		font-size:2.7rem;
+		font-weight:600;
+		color:#3fbbc0;
+		margin-bottom:2rem;
+	}
+	.department-info > p{
+		font-size:1.6rem;
+		color:#777777;
+		margin-bottom:2rem;
+	}
+	.department-con p{
+		font-size:1.7rem;
+		color:#777777;
+	}
+/*pricing-sec-end*/
 /*doctors-sec-start*/
     .doc-card{
 		border:none;
@@ -369,6 +398,54 @@ section{
 		font-size:1.3rem;
 	}
 /*doctors-sec-end*/
+/*pricing-sec-start*/
+    .price-box{
+		box-shadow:0px 0px 4px rgba(0, 0, 0, 0.1);
+		border-radius:4px;
+		overflow:hidden;
+	}
+    .price-box .price-top{
+		border:none;
+		margin:-0.1rem -0.1rem 0rem -0.1rem ;
+	}
+	.price-box .price-top h5{
+		font-size:1.6rem;
+		color:#777777;
+	}
+	.price-box >  h5{
+		font-size:3.4rem;
+		font-family: "Poppins", sans-serif;
+		font-weight:600;
+		color:#3fbbc0;
+		margin:1.7rem 0rem;
+	}
+	.price-box >  h5 sup{
+		font-size:2rem;
+		padding-right:0.5rem;
+	}
+	.price-box >  h5 span{
+		font-size:1.8rem;
+		font-weight:300;
+		padding:0.5rem;
+		color:#bababa;
+	}
+	.price-box ul li{
+		font-size:1.5rem;
+		padding-bottom:1.6rem;
+		color:#444444;
+	}
+	.price-btn{
+		padding:2rem 1.5rem;
+		background-color:#f8f8f8;
+		margin:-0.1rem -0.1rem 0rem -0.1rem ;
+	}
+	.price-btn a{
+		padding:0.8rem 3rem;
+	}
+	.head-bgcolor{
+		background-color:#3fbbc0;
+	}
+/*pricing-sec-end*/
 /*questioins-sec-start*/
 	.accordion-button{
 		background-color:#f7fcfc;
