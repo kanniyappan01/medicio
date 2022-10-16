@@ -57,7 +57,7 @@ section{
 		padding:20px 0px;
 		position: fixed;
         left: 0;
-        top: 38px;
+        top: 37px;
         width: 100%;
 		z-index:99;
 		box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);
@@ -379,6 +379,38 @@ section{
 		color:#777777;
 	}
 /*pricing-sec-end*/
+/*testimonials-sec-start*/
+    .testimonial-box p{
+		padding:2rem 2rem 6rem 2rem;
+	    font-size:1.65rem;
+		font-style:italic;
+		line-height:26px;
+		background-color:#f0fafa;
+		border-radius:7px;
+	}
+	.testimonial-box p i{
+		color:#b2e4e6;
+		font-size:2.6rem;
+		padding:;
+	}
+	.testimonial-end{
+		margin:-4.5rem 0rem 0rem 2rem;
+	}
+	.testimonial-end img{
+		max-width:90px;
+		height:auto;
+		border-radius:50%;
+		border:5px solid #fff;
+	}
+	.testimonial-end h4{
+		font-size:1.8rem;
+		font-weight:600;
+	}
+	.testimonial-end h5{
+		color:#999;
+		font-size:1.4rem;
+	}
+/*testimonials-sec-end*/
 /*doctors-sec-start*/
     .doc-card{
 		border:none;
@@ -398,6 +430,23 @@ section{
 		font-size:1.3rem;
 	}
 /*doctors-sec-end*/
+/*gallery-sec-start*/
+    .gallery-box{
+		margin-top:7rem;
+	}
+    .gallery-img{
+		width:20%;
+	}
+    .gallery-img img{
+		max-width:100%;
+	}
+	.gallery-img img:hover{
+		transform:scale(1.2);
+		border:7px solid #3fbbc0;
+		padding:0.4rem;
+		transition:all .2s;
+	}
+/*gallery-sec-end*/
 /*pricing-sec-start*/
     .price-box{
 		box-shadow:0px 0px 4px rgba(0, 0, 0, 0.1);
