@@ -34,11 +34,6 @@ section{
 .header-top{
 	background-color:#3fbbc0;
 	padding:8px 0px;
-	position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-	z-index:99;
 }
 .head-time-clock p{
 	margin:0;
@@ -54,16 +49,20 @@ section{
 /*header-sec-start*/
     .header{
 		background-color:#fff;
-		padding:20px 0px;
+		
 		position: fixed;
         left: 0;
-        top: 37px;
+        top: 0px;
         width: 100%;
 		z-index:99;
 		box-shadow:0px 3px 15px rgba(0, 0, 0, 0.1);
 	}
+	.head-info{
+		padding:20px 0px;
+	}
 	.head-info a{
 		display:block;
+		
 	}
 	.head-info nav ul li{
 		display:inline-block;
@@ -311,6 +310,13 @@ section{
 		border-radius:50%;
 		box-shadow:0px 0px 20px #77777740;
 		margin-bottom:20px;
+		position:relative;
+	}
+	.service-box .icon i{
+	    position:absolute;
+		top:50%;
+		height:50%;
+		transform:translate(-50%, -50%);
 	}
 	.service-box h5{
 		font-size:1.8rem;
@@ -452,10 +458,23 @@ section{
 		box-shadow:0px 0px 4px rgba(0, 0, 0, 0.1);
 		border-radius:4px;
 		overflow:hidden;
+		position:relative;
 	}
     .price-box .price-top{
 		border:none;
 		margin:-0.1rem -0.1rem 0rem -0.1rem ;
+	}
+	.price-box > span{
+		position:absolute;
+		top:17px;
+		right:-60px;
+		font-size:1.4rem;
+		transform:rotate(43deg);
+		background-color:#3fbbc0;
+		width:200px;
+		color:#fff;
+		padding:0.2rem 0rem 0.3rem 0rem;
+		z-index:1;
 	}
 	.price-box .price-top h5{
 		font-size:1.6rem;
