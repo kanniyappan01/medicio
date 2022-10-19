@@ -1,0 +1,134 @@
+@media(max-width:576px){
+	.menu-mid{
+		display:none;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color:#000;
+		padding:50px 15px 15px;
+	}
+	.active-menu{
+		display:flex;
+	}
+	.menu-mid ul{
+		background-color:#fff;
+		border-radius:5px;
+		width:100%;
+	}
+	.head-nav-btn .menu-mid ul li{
+		display:block;
+	}
+	.menu-mid ul li	a{
+		display:block;
+		color:black;
+		padding:12px 18px;
+	}
+	.menu-close-btn{
+		width:30px;
+		height:28px;
+		margin:13px 0px 0px 13px;
+		z-index:99;
+	}
+	.active-btns{
+		position:absolute;
+		top:7px;
+		right:17px;
+		color:#fff;
+		z-index:100;
+	}
+	.active-btns .bars-lt, .bars-ct, .active-btns .bars-rt{
+		background-color:#fff;
+		width:100%;
+		height:2px;
+
+		margin-bottom:5px;
+		transition:all 0.5s ease;
+	}
+	.bars-lt, .bars-ct, .bars-rt{
+		width:100%;
+		height:2px;
+		background-color:black;
+		margin-bottom:5px;
+		transition:all 0.5s ease;
+	}
+	.active-btns > .bars-lt{
+		transform:rotate(45deg) translate(5px, 5px);
+	}
+	.active-btns > .bars-rt{
+		transform:rotate(-45deg) translate(5px, -4px);
+	}
+	.active-btns > .bars-ct{
+		opacity:0;
+		visibility:hidden;
+		transform:translateX(-28px);
+	}
+}
+@media(max-width:991px){
+	.menu-mid{
+		display:none;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color:#000;
+		padding:50px 15px 15px;
+	}
+	.active-menu{
+		display:flex;
+	}
+	.menu-mid ul{
+		background-color:#fff;
+		border-radius:5px;
+		width:100%;
+	}
+	.head-nav-btn .menu-mid ul li{
+		display:block;
+	}
+	.menu-mid ul li	a{
+		display:block;
+		color:black;
+		padding:12px 18px;
+	}
+	.menu-close-btn{
+		width:30px;
+		height:28px;
+		margin:13px 0px 0px 13px;
+		z-index:99;
+	}
+	.active-btns{
+		position:absolute;
+		top:7px;
+		right:17px;
+		color:#fff;
+		z-index:100;
+	}
+	.active-btns .bars-lt, .bars-ct, .active-btns .bars-rt{
+		background-color:#fff;
+		width:100%;
+		height:2px;
+
+		margin-bottom:5px;
+		transition:all 0.5s ease;
+	}
+	.bars-lt, .bars-ct, .bars-rt{
+		width:100%;
+		height:2px;
+		background-color:black;
+		margin-bottom:5px;
+		transition:all 0.5s ease;
+	}
+	.active-btns > .bars-lt{
+		transform:rotate(45deg) translate(5px, 5px);
+	}
+	.active-btns > .bars-rt{
+		transform:rotate(-45deg) translate(5px, -4px);
+	}
+	.active-btns > .bars-ct{
+		opacity:0;
+		visibility:hidden;
+		transform:translateX(-28px);
+	}
+}

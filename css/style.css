@@ -1,52 +1,58 @@
-html{
-	font-size:10px;
-}
-.primary-btn{
-	display:inline-block;
-	background-color:#3fbbc0;
-	color:#fff;
-	border-radius:4px;
-	font-size:1.5rem;
-}
-.bg-color{
-		background-color:#f7fcfc;
-}
-h1, h2, h3, h4, h5, h6{
-	font-family: 'Roboto', sans-serif;
-	color:#222222;
-}
-p{
-	color:#444444;
-}
-ul{
-	margin:0;
-	padding:0;
-}
-li{
-	list-style-type:none;
-}
-a{
-	text-decoration:none;
-}
-section{
-	padding:60px 0px;
-}
-.header-top{
-	background-color:#3fbbc0;
-	padding:8px 0px;
-}
-.head-time-clock p{
-	margin:0;
-	font-size:1.5rem;
-	font-weight:500;
-	color:#fff;
-}
-.head-time-clock p i{
-	display:inline-block;
-	padding-right:5px;
-	font-size:1.7rem;
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,300;1,400;1,500;1,700;1,900&display=swap');
+	html{
+		font-size:10px;
+	}
+	h1, h2, h3, h4, h5, h6{
+		font-family: 'Roboto', sans-serif;
+		color:#222222;
+	}
+	p{
+		color:#444444;
+	}
+	ul{
+		margin:0;
+		padding:0;
+	}
+	li{
+		list-style-type:none;
+	}
+	a{
+		text-decoration:none;
+	}
+	section{
+		padding:60px 0px;
+	}
+	.primary-btn{
+		display:inline-block;
+		background-color:#3fbbc0;
+		color:#fff;
+		border-radius:4px;
+		font-size:1.5rem;
+		transition:0.3s;
+	}
+	.primary-btn:hover{
+		background-color:#65c9cd;
+		color:#fff;
+	}
+	.bg-color{
+			background-color:#f7fcfc;
+	}
 /*header-sec-start*/
+	.header-top{
+		background-color:#3fbbc0;
+		padding:8px 0px;
+	}
+	.head-time-clock p{
+		margin:0;
+		font-size:1.5rem;
+		font-weight:500;
+		color:#fff;
+	}
+	.head-time-clock p i{
+		display:inline-block;
+		padding-right:5px;
+		font-size:1.7rem;
+	}
     .header{
 		background-color:#fff;
 		
@@ -60,7 +66,7 @@ section{
 	.head-info{
 		padding:20px 0px;
 	}
-	.head-info a{
+	.head-info h1 a{
 		display:block;
 		
 	}
@@ -74,6 +80,11 @@ section{
 		font-size:1.3rem;
 		font-weight:600;
 		color:#222222;
+		transition:0.4s;
+	}
+	.head-info nav ul li a:hover{
+		color:#3fbbc0;
+		transition:0.4s;
 	}
 	.head-nav-btn > a{
 		padding:8px 25px;
@@ -94,11 +105,11 @@ section{
 		padding:30px 10px 30px 10px;
 		border-top:4px solid #3fbbc0;
 	}
-	
 	.banner-con h1{
 		font-size:3.5rem;
 		font-weight:700;
 		margin-bottom:25px;
+		font-family: 'Roboto', sans-serif;
 	}
 	.banner-con p{
 		font-size:1.6rem;
@@ -308,15 +319,20 @@ section{
 		height:8rem;
 		background-color:#fff;
 		border-radius:50%;
-		box-shadow:0px 0px 20px #77777740;
+		box-shadow:0px 0px 30px #77777740;
 		margin-bottom:20px;
 		position:relative;
+		transition:all 0.6s;
 	}
 	.service-box .icon i{
 	    position:absolute;
 		top:50%;
 		height:50%;
 		transform:translate(-50%, -50%);
+	}
+	.service-box:hover .icon{
+		box-shadow:0px 0px 30px #3fbbc052;
+		transition:all 0.6s;
 	}
 	.service-box h5{
 		font-size:1.8rem;
@@ -422,8 +438,27 @@ section{
 		border:none;
 		border-radius:4px;
 	}
-	.doc-card img{
+	.doc-card .doctor-image img{
 		border-radius:4px 4px 0px 0px;
+	}
+	.doctor-image{
+		position:relative;
+	}
+	.doctor-image .icon{
+		display:none;
+		background-color:#fff;
+		opacity:0.8;
+		position:absolute;
+		bottom:0;
+		left:0;
+		right:0;
+		transition:1s;
+	}
+	.doctor-image .icon a{
+		display:inline-block;
+		color:black;
+		font-size:2rem;
+		padding:0.5rem;
 	}
 	.doc-card .doctor-info{
 		padding:2rem;
@@ -434,6 +469,10 @@ section{
 	}
 	.doctor-info p{
 		font-size:1.3rem;
+	}
+	.doc-card:hover .doctor-image .icon{
+		display:block;
+		transition:1s;
 	}
 /*doctors-sec-end*/
 /*gallery-sec-start*/
@@ -446,12 +485,12 @@ section{
     .gallery-img img{
 		max-width:100%;
 	}
-	.gallery-img img:hover{
+	/*.gallery-img img:hover{
 		transform:scale(1.2);
 		border:7px solid #3fbbc0;
 		padding:0.4rem;
 		transition:all .2s;
-	}
+	}*/
 /*gallery-sec-end*/
 /*pricing-sec-start*/
     .price-box{
