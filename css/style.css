@@ -452,7 +452,7 @@
 		bottom:0;
 		left:0;
 		right:0;
-		transition:1s;
+		transition:all 0.4s ease-in-out;
 	}
 	.doctor-image .icon a{
 		display:inline-block;
@@ -472,8 +472,8 @@
 	}
 	.doc-card:hover .doctor-image .icon{
 		display:block;
-		transition:1s;
-	}
+		transition:all 0.4s ease-in-out;
+	}	
 /*doctors-sec-end*/
 /*gallery-sec-start*/
     .gallery-box{

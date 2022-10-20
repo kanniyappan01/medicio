@@ -19,6 +19,7 @@
 	}
 	.head-nav-btn .menu-mid ul li{
 		display:block;
+		margin-bottom:1rem;
 	}
 	.menu-mid ul li	a{
 		display:block;
@@ -42,7 +43,6 @@
 		background-color:#fff;
 		width:100%;
 		height:2px;
-
 		margin-bottom:5px;
 		transition:all 0.5s ease;
 	}
