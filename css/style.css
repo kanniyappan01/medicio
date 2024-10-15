@@ -42,9 +42,6 @@ section {
     border-radius: 4px;
     font-size: 1.5rem;
     transition: 0.3s;
-    height: 40px;
-    width: 210px;
-    text-align: center;
 }
 
 .primary-btn:hover {
